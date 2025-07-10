@@ -28,7 +28,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
-For my first milestone, I was able to get the entire base project working. For me, the base project included building the Raspberry Pi, getting the Pi connected to the display, and also properly displaying the simulation. One major issue I faced near the beginning was that the SD card failed and the Raspberry Pi couldn't use it anymore. Luckily, I had a spare USB drive and I loaded the OS for the Pi on that, which allowed it to work normally. I also had to install a fan and put the Pi in a case, since it was getting too hot. After making sure the Pi ran normally, I had to debug the lunar lander software since there were issues with importing packages. To fix this, I had to create a virtual environment (venv) and import the packages on the venv. One major breakthrough I had was being able to display the simulation briefly on the display just by running the python script. 
+
 
 
 # Second Milestone
@@ -55,7 +55,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
 
-First Milestone: My project is a self-aligning lunar lander simulation that learns from data (machine learning). I plan 
+For my first milestone, I was able to get the entire base project working. For me, the base project included building the Raspberry Pi, getting the Pi connected to the display, and also properly displaying the simulation. One major issue I faced near the beginning was that the SD card failed and the Raspberry Pi couldn't use it anymore. Luckily, I had a spare USB drive and I loaded the OS for the Pi on that, which allowed it to work normally. I also had to install a fan and put the Pi in a case, since it was getting too hot. After making sure the Pi ran normally, I had to debug the lunar lander software since there were issues with importing packages. To fix this, I had to create a virtual environment (venv) and import the packages on the venv. One major breakthrough I had was being able to display the simulation briefly on the display just by running the python script. As a result of fixing issues, I was able to learn quite a bit about virtual environments and how they can be used. 
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
