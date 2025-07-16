@@ -44,6 +44,9 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
 
+I was able to optimize the PI by overclocking it. Specifically, I increased the voltage it can take and its CPU frequency so that it could run faster. After that, I compared the times.
+
+
 # First Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -57,6 +60,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - What your plan is to complete your project
 
 My project is a self-landing lunar lander simulation, where it trains itself on landing between two flags in an uneven terrain. This required a Raspberry Pi kit, a USB drive (for Pi OS), and a display screen to view the simulation. For my first milestone, I was able to get the Raspberry Pi working with the mouse and keyboard and I was also able to SSH into the Pi from my laptop. I was also able to get the full base model working and could display the post-training simulation on the screen provided just by running the python script. One major issue I faced while getting this done was the SD card failing (possibly due to overheating). Luckily, I was able to use a USB drive to load the Pi OS on and was able to connect that to the Pi. This allowed it to work normally without overheating issues. However, to be safe, I put the Pi in a case with a fan. Installing the fan was a bit difficult, however, since it was hard to find consistent instructions online. After that, I had to figure out how to establish an SSH with the Pi through my computer's terminal. Using the localhost name wasn't working so I searched it up and found it to work with the Pi's IP. I was then able to similarly establish a remote SSH through Visual Studio Code. After that, I was able to get the code working after installing required packages and fixing minor issues. Furthermore, I added a line that showed the learned video on the display screen at the end of the program. My next step is to optimize the PI and possibly also the program to run faster and more efficiently.
+
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
