@@ -44,7 +44,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
 
-I was able to optimize the PI by overclocking it. Specifically, I increased the voltage it can take and its CPU frequency so that it could run faster. After that, I compared the times.
+For my second milestone, I mostly focused on optimizing the program's speed by utilizing various methods such as overclocking the Raspberry Pi and tweaking the learning model. The first thing I did was test the base model to see how long it takes to run. However, the base model is a little different from the intented base model already, as I mentioned I had to use an external SSD drive for the Pi's OS instead of the provided SD card since the card stopped working. Albeit, this resulted in a real time of 24 minutes and 39 seconds, which is quite a bit of time for just one program. Furthermore, the graph of the learning model didn't quite show significant improvement for the time given. My next test was to overclock the Pi itself to support an extra voltage of 8, as well has having a max CPU frequency of 2140 MHz and GPU frequency of 750 MHz. I also made sure to test it for any overheating before going through and executing the program. This new and improved Pi was able to execute in  
 
 
 # First Milestone
