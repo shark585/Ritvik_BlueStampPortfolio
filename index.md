@@ -67,8 +67,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 # Important Documentation
 
-- [Example 1](https://stable-baselines3.readthedocs.io/en/master/guide/custom_env.html)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+- [Notebook for Base Project](https://colab.research.google.com/github/NeuromatchAcademy/course-content-dl/blob/main/projects/ReinforcementLearning/lunar_lander.ipynb#scrollTo=fEaAO6KC1dy6)
+- [Creating Custom Environments](https://stable-baselines3.readthedocs.io/en/master/guide/custom_env.html)
+- [Pygame Documentation](https://www.pygame.org/docs/ref/draw.html)
+- [Box2D Physics Documentation](https://box2d.org/documentation/md_simulation.html#autotoc_md54)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
