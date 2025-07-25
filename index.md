@@ -5,13 +5,11 @@ My base project is an automated, self learning lunar lander simulation that trai
 |:--:|:--:|:--:|:--:|
 | Ritvik U | Dougherty Valley High | Computer Science + Astronomy | Incoming Senior 
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
 ![Headstone Image](docs/assets/IMG_2031.JPG)
   
 # Final Milestone
 
-<iframe width="560" height="315" src="https://youtube.com/shorts/5HUi7dd7cMs?si=HavfFcOSVIsc_TYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5HUi7dd7cMs?si=obQCVeZml7ym2KhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 My last milestone and biggest accomplishment was allowing the user to create their own custom environment for the lander. I started with just letting the user draw a line and then tried to save that as an environment, but I later realized this was impractical, and couldn't find a way to save the line into the lander's environment. I then pivoted towards a drag and drop, where the user could choose from three preset shapes (square, circle, triangle) and move them wherever they wished so that they could create their own rugged terrain to challenge the lander. I was able to get the shapes to load without much difficulty, but the main issue was adding collision to the shapes. My first thought was to simply look at how the original program implements collision by going through the source code, but when I replicated it, there still wasn't any collision. I ended up researching and testing quite a bit on how I could make the shapes collide with the lander using the Box2d physics engine (similar to the original program), but most of them were to no avail until I decided to create separate static bodies for each shape, so that they would behave like the ground. This was fairly complicated as well, since I had to set the maskbits and categorybits to program the dynamic bodies (the lander) to collide with the static bodies (the shapes). I finally reached success with this method, and I was able to get a program that works as I had envisioned since the beginning. 
 
