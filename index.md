@@ -1,5 +1,5 @@
 # Lunar Lander Simulation
-My base project is an automated, self learning lunar lander simulation that trains itself through DQN (Deep Q Network) reinforcement learning. It operates on a reward pattern determined by variables such as fuel consumption and if it landed successfully. Through multiple hundreds of thousands of episodes, it optimizes the reward and therefore lands more efficiently, eventually being able to land properly without crashing. 
+My base project is an automated, self learning lunar lander simulation that trains itself through DQN (Deep Q Network) reinforcement learning. It operates on a reward pattern determined by variables such as fuel consumption and if it landed successfully. Through a few hundred thousand episodes, it optimizes the reward and therefore lands more efficiently, eventually being able to land properly without crashing. This process will usually take about 20 minutes for optimal results.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
