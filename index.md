@@ -11,17 +11,7 @@ My base project is an automated, self learning lunar lander simulation that trai
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- I was able to finish building the Raspberry Pi and installed a fan on it to prevent overheating. I also put it in its box to keep the components organized and make it look neater.
-- What your biggest challenges and triumphs were at BSE
-- The biggest obstacle I faced while completing this milestone was the SD card failing
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
 
 My last milestone and biggest accomplishment was allowing the user to create their own custom environment for the lander. I started with just letting the user draw a line and then tried to save that as an environment, but I later realized this was impractical, and couldn't find a way to save the line into the lander's environment. I then pivoted towards a drag and drop, where the user could choose from three preset shapes (square, circle, triangle) and move them wherever they wished so that they could create their own rugged terrain to challenge the lander. I was able to get the shapes to load without much difficulty, but the main issue was adding collision to the shapes. My first thought was to simply look at how the original program implements collision by going through the source code, but when I replicated it, there still wasn't any collision. I ended up researching and testing quite a bit on how I could make the shapes collide with the lander using the Box2d physics engine (similar to the original program), but most of them were to no avail until I decided to create separate static bodies for each shape, so that they would behave like the ground. This was fairly complicated as well, since I had to set the maskbits and categorybits to program the dynamic bodies (the lander) to collide with the static bodies (the shapes). I finally reached success with this method, and I was able to get a program that works as I had envisioned since the beginning. 
 
@@ -30,9 +20,8 @@ Bluestamp was a very different program than what I was used to, since it was muc
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 For my second milestone, I mostly focused on optimizing the program's speed by utilizing various methods such as overclocking the Raspberry Pi and tweaking the learning model. The first thing I did was test the base model to see how long it takes to run. However, the base model is a little different from the intented base model already, as I mentioned I had to use an external SSD drive for the Pi's OS instead of the provided SD card since the card stopped working. One important thing to note before I dive in is that the model always ran 100,000 episodes in all of these tests. Albeit, this resulted in a real time of 24 minutes and 39 seconds, which is quite a bit of time for just one program. Furthermore, the graph of the learning model didn't quite show significant improvement for the time given. My next test was to overclock the Pi itself to support voltage of 6V, as well has having a max CPU frequency of 1800 MHz. I also made sure to test it for any overheating before going through and executing the program. This new and improved Pi was able to execute in 24 minutes and 12 seconds, which wasn't much of an increase in efficiency. For reference, the un-modified version of the Pi runs at 1500 MHz CPU and 500 MHz GPU, with a 5V power. When looking at the difference, there isn't really much, and some features can get bottlenecked. Therefore, this didn't really have much of an impact. 
 
@@ -50,14 +39,11 @@ My project is a self-landing lunar lander simulation, where it trains itself on 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
-# Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+# Code (Github Repository)
 
 <a href = "https://github.com/shark585/Lunar_Lander/tree/a207194942fdc82ea20d83c50c250cb3887a5172/venv"> Base Model Code (lander.py) and Custom Environment Creator (create.py) </a>
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
@@ -71,5 +57,3 @@ Don't forget to place the link of where to buy each component inside the quotati
 - [Creating Custom Environments](https://stable-baselines3.readthedocs.io/en/master/guide/custom_env.html)
 - [Pygame Documentation](https://www.pygame.org/docs/ref/draw.html)
 - [Box2D Physics Documentation](https://box2d.org/documentation/md_simulation.html#autotoc_md54)
-
-To watch the BSE tutorial on how to create a portfolio, click here.
