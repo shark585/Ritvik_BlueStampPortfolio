@@ -1,11 +1,5 @@
 # Lunar Lander Simulation
-My project is an automated, self learning lunar lander simulation 
-
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
+My base project is an automated, self learning lunar lander simulation that trains itself through DQN (Deep Q Network) reinforcement learning. It operates on a reward pattern determined by variables such as fuel consumption and if it landed successfully. Through multiple hundreds of thousands of episodes, it optimizes the reward and therefore lands more efficiently, eventually being able to land properly without crashing. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -29,7 +23,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
-
+My last milestone and biggest accomplishment was allowing the user to create their own custom environment for the lander. I started with just letting the user draw a line and then tried to save that as an environment, but I later realized this was impractical, and couldn't find a way to save the line into the lander's environment. I then pivoted towards a drag and drop, where the user could choose from three preset shapes (square, circle, triangle) and move them wherever they wished so that they could create their own rugged terrain to challenge the lander. 
 
 
 # Second Milestone
