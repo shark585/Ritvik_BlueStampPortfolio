@@ -51,7 +51,7 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-<a href = "https://github.com/shark585/Lunar_Lander/blob/main/base_model.py"> Base Model Code </a>
+<a href = "https://github.com/shark585/Lunar_Lander/tree/a207194942fdc82ea20d83c50c250cb3887a5172/venv"> Base Model Code (lander.py) and Custom Environment Creator (create.py) </a>
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
