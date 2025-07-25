@@ -66,8 +66,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Wireless Mouse and Keyboard | Used for navigating through the display | $21.99 | <a href="https://www.amazon.com/gp/product/B07XDWCLYF/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1"> Link </a> |
 
 # Important Documentation
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
+
+- [Example 1](https://stable-baselines3.readthedocs.io/en/master/guide/custom_env.html)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
